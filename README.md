@@ -34,8 +34,36 @@ Welcome to the Markdown-Noted App! This Flask-based application allows users to 
 
    ```bash
    git clone https://github.com/splashray/markdown-noted-api.git
-   cd markdown-note-taking-app
+   cd markdown-noted-api
    ```
+
+Create a Virtual Environment and Install Dependencies:
+
+````bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+pip install -r requirements.txt
+ ```
+
+Set Up Environment Variables:
+
+Create a .env file and configure the necessary environment variables like SECRET_KEY, JWT_SECRET_KEY, DATABASE_URI, etc.
+
+Run Database Migrations:
+
+```bash
+flask db upgrade
+````
+
+Run the Application:
+
+```bash
+f   lask run
+```
+
+Test the Endpoints:
+
+Use Postman or a similar tool to test the API endpoints for creating, retrieving, updating, and deleting notes.
 
 2. **Error Handling :**
 
