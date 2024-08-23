@@ -37,29 +37,29 @@ Welcome to the Markdown-Noted App! This Flask-based application allows users to 
    cd markdown-noted-api
    ```
 
-Create a Virtual Environment and Install Dependencies:
+   Create a Virtual Environment and Install Dependencies:
 
-````bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-pip install -r requirements.txt
- ```
+   ````bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   pip install -r requirements.txt
+   ```
 
-Set Up Environment Variables:
+   Set Up Environment Variables:
 
-Create a .env file and configure the necessary environment variables like SECRET_KEY, JWT_SECRET_KEY, DATABASE_URI, etc.
+   Create a .env file and configure the necessary environment variables like SECRET_KEY, JWT_SECRET_KEY, DATABASE_URI, etc.
 
-Run Database Migrations:
+   Run Database Migrations:
 
-```bash
-flask db upgrade
-````
+   ```bash
+   flask db upgrade
+   ````
 
-Run the Application:
+   Run the Application:
 
-```bash
-f   lask run
-```
+   ```bash
+   f   lask run
+   ```
 
 Test the Endpoints:
 
