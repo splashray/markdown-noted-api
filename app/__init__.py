@@ -32,7 +32,7 @@ def create_app():
     # Default welcome endpoint
     @app.route('/')
     def welcome():
-        return {"message": "Welcome to the Markdown Note-taking API built with Python-Django!"}, 200
+        return {"message": "Welcome to the Markdown Note-taking API built with Python-Flask!"}, 200
     
     # Custom 404 error handler
     @app.errorhandler(404)
